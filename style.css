@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Qahiri&display=swap");
+
+body {
+  font-family: "Qahiri", sans-serif;
+  background: black;
+}
+
+.clock {
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  font-size: 30vw;
+  color: white;
+}
+
+.clock span {
+  padding: 20px;
+}
